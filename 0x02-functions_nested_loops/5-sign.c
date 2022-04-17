@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_sign - prints whether a number is +ve or -ve else is zero.
+ * @n: the number to be checked for sign
  * Return: 1 if it is +ve, -1 if it is -ve else 0.
  */
 int print_sign(int n)
