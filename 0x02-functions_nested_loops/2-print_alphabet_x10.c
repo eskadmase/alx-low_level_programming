@@ -9,7 +9,7 @@ char letter;
 while (counter++ <= 9)
 {
 for (letter = 'a'; letter <= 'z'; letter++)
-_printchar(letter);
-_printchar('\n');
+_putchar(letter);
+_putchar('\n');
 }
 }
