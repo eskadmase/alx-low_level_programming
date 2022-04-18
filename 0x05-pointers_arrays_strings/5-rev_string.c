@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * rev_string - prints reverse string
- * @s: a pointer to be updated 
+ * @s: a pointer to be updated
  *
  * Return: void
  */
@@ -10,15 +10,18 @@ void rev_string(char *s)
 char *start_c, *end_c, c;
 int i, count;
 int length = 0;
+
 for  (i = 0; s[i]; i++)
 {
 length++;
 }
+
 count = length;
+
 start_c = s;
 end_c = s;
 
-for (i = 0; i < count; i++)
+for (i = 0; i < count - 1; i++)
 {
 end_c++;
 }
