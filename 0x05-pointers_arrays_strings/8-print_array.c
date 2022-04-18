@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - prints  n elements of anm array of integers
  * @a: a pointer to be updated
