@@ -1,12 +1,18 @@
 #include "main.h"
 /**
- * _putchar - writes the character c to stdout
- * @c: the character to be printed
+ * _puts - prints a string
+ * @str: a pointer that will be changed
  *
- * Return: on success 1.
- * On error, -1 is returned
+ * Return: void which means our answer is correct
  */
-int _putchar(char c)
+void _puts(char *str)
 {
-return (write(1, &c, 1));
+char *c;
+int m;
+c = str;
+for (m = 0; c[m]; m++)
+{
+_putchar (c[m]);
+}
+_putchar ('\n');
 }
