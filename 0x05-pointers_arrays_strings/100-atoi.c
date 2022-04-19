@@ -1,5 +1,15 @@
 #include "main.h"
 /**
+ * is_numerical - check if it is a digit
+ * @n: number
+ * Return: 1 if it is a number else 0
+ */
+int is_numerical(unsigned int n)
+{
+return (n >= '0' && n <= '9');
+}
+
+/**
  * _atoi - converts an in string to an integer
  * @s: string
  * Return: return the num
@@ -25,5 +35,5 @@ else if (s[i] == '-')
 sign *= -1;
 }
 }
-return (number * sign);
+return (number *sign);
 }
