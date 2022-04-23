@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - multiplies two integer
  * @a: first integer
