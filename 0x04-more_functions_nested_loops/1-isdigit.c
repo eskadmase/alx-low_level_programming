@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * main - check if the number is between 0 and 9
- * @c: input number
- * Return: 1 else o
+ * _isdigit - check if the number is between 0 and 9.
+ * @c: input number.
+ * Return: 1 else o.
  */
 int _isdigit(int c)
 {
