@@ -14,7 +14,7 @@ unsigned  int m;
 if (n < 0)
 {
 _putchar('-');
-m = - n;
+m = -n;
 }
 else
 {
