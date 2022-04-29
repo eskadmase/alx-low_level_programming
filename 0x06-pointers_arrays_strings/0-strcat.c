@@ -3,13 +3,13 @@
 /* include <stdio.h> */
 
 /**
- * *_stract - function that concatenates two strings.
+ * *_strcat - function that concatenates two strings.
  * @dest: pointer character
  * @src: pointer character
  * Return: @dest of pointer type
  */
 
-char *_stract(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 int c, c2;
 c = 0;
@@ -17,7 +17,7 @@ c = 0;
 while (dest[c])
 c++;
 /* iterate through each src array value without the null byte*/
-for (c2 = 0; src[c2] ; c2++)
+for (c2 = 0; src[c2]; c2++)
 /*append src[c2] to dest[c] while while overwritting the null byte in dest*/
 dest[c++] = src[c2];
 return (dest);
