@@ -3,7 +3,6 @@
 
 int main(int argc, char* argv[])
 {
-printf(argv[0]);
-printf("\n");
+printf("\n", argv[0]);
 return 0;
 }
