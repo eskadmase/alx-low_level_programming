@@ -1,7 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+
+/**
+ * main - main function that return its name.
+ *
+ * Return: success
+ */
 
 int main(int argc, char* argv[])
 {
