@@ -8,7 +8,7 @@
  *
  * Return: copied memory with n byte changed
  */
-char *_memcpy(char *dset, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	for (i = 0; i < n; i++)
 	{
