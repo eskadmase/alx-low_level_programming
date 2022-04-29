@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - main function that return its name
+ * main - a function that prints its name
  * @argc: size of argv array
  * @argv: array of size argc
  *
