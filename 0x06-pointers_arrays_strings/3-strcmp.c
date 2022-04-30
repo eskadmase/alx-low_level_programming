@@ -5,7 +5,7 @@
  * @s2: pointer to second input
  * Return: 0 if s1=s2, positive int if s1>s2 and negative if s1<s2
  */
-int _strcmp(char *s1, char *s2);
+int _strcmp(char *s1, char *s2)
 {
 	int i = 0;
 
