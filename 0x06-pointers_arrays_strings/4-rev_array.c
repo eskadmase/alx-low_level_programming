@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * reverse_array - is a function that reverse array of string
- * @e: pointer to array
+ * @a: pointer to array
  * @n: size of an array
  * Return: 0
  */
