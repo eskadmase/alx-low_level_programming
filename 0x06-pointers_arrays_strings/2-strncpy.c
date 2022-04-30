@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncpy - is a function that copies a string
  * @dest: pointer to first input
