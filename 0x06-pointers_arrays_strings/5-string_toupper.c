@@ -5,7 +5,7 @@
  * Return: pointer to s
  */
 
-char string_toupper(char *s)
+char *string_toupper(char *s)
 {
 	int i = 0;
 
