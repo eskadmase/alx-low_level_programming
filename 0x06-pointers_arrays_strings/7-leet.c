@@ -5,7 +5,6 @@
  * @s: is a pointer to char
  * Return: pointer to s
  */
-
 char *leet(char *s)
 {
 	int i, j;
@@ -15,7 +14,7 @@ char *leet(char *s)
 	{
 		for (j = 0; v[j] != '\0'; j++)
 		{
-			if (s[i] == v[j] || s[i] = (v[j] - 32))
+			if (s[i] == v[j] || s[i] == (v[j] - 32))
 			{
 				s[i] = j + '0';
 			}
