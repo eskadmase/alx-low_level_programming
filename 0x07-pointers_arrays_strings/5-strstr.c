@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stddef.h>
-
+/* #include <stdio.h> */
 /**
  * _strstr - is a function that locates a substring
  * @haystack: is a string input
