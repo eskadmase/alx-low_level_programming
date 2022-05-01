@@ -14,8 +14,10 @@ char *_strstr(char *haystack, char *needle)
 	for (i = 0; haystack[i] != '\0'; i++)
 	{
 		int j = 0;
+		/* printf ("%c = %c ", needle[j], haystack[i + j]; */
 		for (; needle[j] != '\0'; j++)
 		{
+			/* printf (" %c ",  needle[j]); */
 			if (haystack[i + j] != needle[j])
 				break;
 		}
