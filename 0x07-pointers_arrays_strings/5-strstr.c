@@ -11,9 +11,11 @@
 char *_strstr(char *haystack, char *needle)
 {
 	int i;
+
 	for (i = 0; haystack[i] != '\0'; i++)
 	{
 		int j = 0;
+
 		/* printf ("%c = %c ", needle[j], haystack[i + j]; */
 		for (; needle[j] != '\0'; j++)
 		{
