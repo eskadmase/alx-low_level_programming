@@ -5,7 +5,7 @@
  * of a square matrix of integers.
  * @: pointer of matrix
  *@size: integer
- * Return: void.
+ * Return: Void.
  */
 
 void print_diagsums(int *a, int size)
