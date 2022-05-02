@@ -7,7 +7,7 @@
  * @size: integer
  * Return: void
  */
-void print-diagsums(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int i = 0, j = size - 1, sum = 0;
 
