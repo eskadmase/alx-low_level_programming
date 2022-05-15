@@ -4,16 +4,16 @@
  * _puts_recursion - function that prints a string
  * @y: string to print
  */
-void _puts_recursion(char *s)
+void _puts_recursion(char *y)
 {
-	if (*s == '\0')
+	if (*y == '\0')
 	{
 		_putchar('\n');
 	}
 	else 
 	{
-		_putchar(*s);
-		s++;
-		_puts_recursion(S);
+		_putchar(*y);
+		y++;
+		_puts_recursion(y);
 	}
 }
