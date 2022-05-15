@@ -7,7 +7,9 @@
 int _strlen_recursion(char *y)
 {
 	if (*y == '\0')
+	{
 		return (0);
+	}
 	else
 	{
 		return (1 + _strlen_recursion(y + 1));
