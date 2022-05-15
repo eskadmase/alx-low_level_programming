@@ -3,7 +3,7 @@
  * _prime-Returns 1 if the input integer is a prime number, otherwise return 0
  * @n: given number
  * @i: counter
- * @: counter for prime
+ * @j: counter for prime
  * Return: _prime
  */
 int _prime(int n, int i, int j)
@@ -16,7 +16,6 @@ int _prime(int n, int i, int j)
 				j++;
 			i++;
 			return (_prime(n, i, j));
-		
 		}
 		if (j == 2)
 			return (1);
