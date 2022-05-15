@@ -10,7 +10,7 @@ void _puts_recursion(char *y)
 	{
 		_putchar('\n');
 	}
-	else 
+	else
 	{
 		_putchar(*y);
 		y++;
