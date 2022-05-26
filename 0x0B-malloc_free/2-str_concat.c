@@ -25,7 +25,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s == 0)
 		return (NULL);
-	for (k = 0, l = 0, k < i + j; k++)
+	for (k = 0, l = 0, k < i + j; k++;)
 	{
 		if (k < i)
 			s[k] = s1[k];
