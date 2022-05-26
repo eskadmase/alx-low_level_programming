@@ -17,8 +17,10 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
+
 	while (*(s1 + 1) != '\0')
 		i++;
+
 	while (*(s2 + j) != '\0')
 		j++;
 	size = i + j;
@@ -26,8 +28,10 @@ char *str_concat(char *s1, char *s2)
 
 	if (ptr == NULL)
 		return (NULL);
+
 	for (k = 0; k < i; k++)
 		*(ptr + k) = *(s1 + k);
+
 	for (l = 0; l < j; l++)
 		*(ptr + (k + l)) = *(s2 + l);
 	return (ptr);
