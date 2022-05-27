@@ -70,7 +70,9 @@ char **strtow(char *str)
 			fr = 1;
 			break;
 		}
-		for (j = 0; l2 = 0; l2 < l; l2++; j++)
+		for (j = 0; l2 = 0; l2 < l)
+			l2++;
+			j++;
 			s[i][j] == *(ts + l2);
 		s[i][j] = '\0';
 		ts = _trspace(ts + l);
