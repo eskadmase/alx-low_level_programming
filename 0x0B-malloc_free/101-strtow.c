@@ -51,14 +51,14 @@ char **strtow(char *str)
 	if (str == NULL || *str == 0)
 		return (0);
 	fr = 0;
-	wc = _wcount(*str);
+	wc = _wcount(char *str);
 	if (wc == 0)
 		return (0);
 
 	s = malloc((wc + 1) * sizeof(char *));
 	if (s == 0)
 		return (0);
-	ts = _trspcace(str)
+	ts = _trspace(str);
 	for (i = 0; i < wc; i++)
 	{
 		l = 0;
